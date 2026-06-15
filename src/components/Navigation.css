@@ -1,0 +1,90 @@
+.hamburger {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 100;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+}
+
+.bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #2c2c2c;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburger.open .bar1 {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.open .bar2 {
+  opacity: 0;
+}
+
+.hamburger.open .bar3 {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 90;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -280px;
+  width: 260px;
+  height: 100vh;
+  background-color: #C4A57B;
+  z-index: 95;
+  transition: right 0.3s ease;
+  padding: 5rem 2rem 2rem;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu.menu-open {
+  right: 0;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.menu ul li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 1.5rem;
+  color: #2c2c2c;
+  padding: 0;
+}
+
+.menu ul li button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    width: 80%;
+    right: -85%;
+  }
+
+  .menu.menu-open {
+    right: 0;
+  }
+}

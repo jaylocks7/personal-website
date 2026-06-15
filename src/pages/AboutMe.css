@@ -1,0 +1,63 @@
+.about-page {
+  min-height: 100vh;
+  background-color: #C4A57B;
+  padding: 6rem 2rem 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-header h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 2;
+  color: #2c2c2c;
+}
+
+.about-header .paper-effect {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-content {
+  width: 100%;
+}
+
+.about-content a {
+  color: #0000EE;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+  color: #2c2c2c;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 5rem 1.25rem 3rem;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+}

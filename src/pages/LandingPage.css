@@ -1,0 +1,43 @@
+.landing-page {
+  min-height: 100vh;
+  background-color: #C4A57B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.landing-image-wrapper {
+  width: 400px;
+  height: 300px;
+  user-select: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.landing-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.landing-hint {
+  font-family: 'Stack Sans Text', sans-serif;
+  font-size: 1rem;
+  color: #2c2c2c;
+}
+
+@media (max-width: 768px) {
+  .landing-image-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+}
