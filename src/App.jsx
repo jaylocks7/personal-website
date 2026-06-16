@@ -6,7 +6,7 @@ import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/personal-website">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<><Navigation /><AboutMe /></>} />
