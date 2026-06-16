@@ -15,7 +15,7 @@ function AboutMe() {
       </div>
       <div className="about-content">
         <p>
-          Malo! (Tongan for "Hello") Hi! I’m Jimmy. I’m a Pasifika Technologist currently living in the Bay Area, 
+          Malo e lelei! (Tongan for "Hello") Hi! I’m Jimmy. I’m a Pasifika Technologist currently living in the Bay Area, 
           previously at Microsoft, Citadel, and Tesla. I went to Stanford where I studied Computer Science and Ethics. 
           I’m at a point in life where I want to converge towards public interest in my 
           line of work. I want to use my skills to positively impact the everyday person, not abstract stakeholders or 
