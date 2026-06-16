@@ -14,8 +14,8 @@
 }
 
 .landing-image-wrapper {
-  width: 400px;
-  height: 300px;
+  width: min(90vw, 400px);
+  aspect-ratio: 4 / 3;
   user-select: none;
   border-radius: 8px;
   overflow: hidden;
@@ -33,11 +33,4 @@
   font-family: 'Stack Sans Text', sans-serif;
   font-size: 1rem;
   color: #2c2c2c;
-}
-
-@media (max-width: 768px) {
-  .landing-image-wrapper {
-    width: 200px;
-    height: 200px;
-  }
 }
