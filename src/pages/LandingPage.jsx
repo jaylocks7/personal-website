@@ -3,12 +3,13 @@ import { motion } from 'framer-motion';
 import Navigation from '../components/Navigation';
 import './LandingPage.css';
 
+const BASE = import.meta.env.BASE_URL;
 const IMAGES = [
-  '/landing-1.jpg',
-  '/landing-2.jpg',
-  '/landing-3.jpg',
-  '/landing-4.jpg',
-  '/landing-5.jpg',
+  `${BASE}landing-1.jpg`,
+  `${BASE}landing-2.jpg`,
+  `${BASE}landing-3.jpg`,
+  `${BASE}landing-4.jpg`,
+  `${BASE}landing-5.jpg`,
 ];
 
 function LandingPage() {
