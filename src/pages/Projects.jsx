@@ -10,6 +10,22 @@ const SAMPLE_PROJECTS = [
     gifSrc: '',
     isCurrentlyWorking: true,
   },
+  {
+    name: 'Contributor Ranking Dashboard',
+    description: 'A dashboard that scrapes commit data from the PostHog repo daily and ranks contributors based on a formula over a 90-day window',
+    codeLink: 'https://github.com/jaylocks7/posthog-pet-proj',
+    writeupLink: 'https://github.com/jaylocks7/posthog-pet-proj/blob/main/README.md',
+    gifSrc: '',
+    isCurrentlyWorking: false,
+  },
+  {
+    name: 'Invoice Data Extractor',
+    description: 'A web app that takes Freight Forwarder Invoice PDFs and extracts key info using OCR, then labels that data on the document',
+    codeLink: 'https://github.com/jaylocks7/ff-invoice-extractor-project',
+    writeupLink: 'https://github.com/jaylocks7/ff-invoice-extractor-project/blob/main/README.md',
+    gifSrc: '',
+    isCurrentlyWorking: false,
+  }
 ];
 
 function Projects() {
