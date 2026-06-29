@@ -20,7 +20,7 @@ const SAMPLE_PROJECTS = [
   },
   {
     name: 'Invoice Data Extractor',
-    description: 'A web app that takes Freight Forwarder Invoice PDFs and extracts key info using OCR, then labels that data on the document',
+    description: 'A web app that takes Freight Forwarder Invoice PDFs and extracts key info using OCR, then highlights that data on the document',
     codeLink: 'https://github.com/jaylocks7/ff-invoice-extractor-project',
     writeupLink: 'https://github.com/jaylocks7/ff-invoice-extractor-project/blob/main/README.md',
     gifSrc: '',
