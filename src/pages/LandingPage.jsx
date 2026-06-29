@@ -40,7 +40,7 @@ function LandingPage() {
             draggable={false}
           />
         </motion.div>
-        <p className="landing-hint">Click me! Or check out the other pages...</p>
+        <p className="landing-hint">Click me ^! Or check out the other pages...</p>
       </div>
     </div>
   );

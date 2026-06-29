@@ -25,6 +25,22 @@ const SAMPLE_PROJECTS = [
     writeupLink: 'https://github.com/jaylocks7/ff-invoice-extractor-project/blob/main/README.md',
     gifSrc: '',
     isCurrentlyWorking: false,
+  },
+  {
+    name: 'Barcode Scanner and Catalogger',
+    description: 'A web app (best on phone) that uses device camera to scan 1-D barcodes, IDs product info, and allows user to catalog item with name, price, and images',
+    codeLink: 'https://github.com/jaylocks7/barcode-photo-capture',
+    writeupLink: 'https://docs.google.com/document/d/1rgnBZXy9Hj0FO_9EhE4NvBzop8guy4AZS_IRNCBvM60/edit?usp=sharing',
+    gifSrc: '',
+    isCurrentlyWorking: false,
+  },
+  {
+    name: 'Criminal Justice Data Analysis',
+    description: '',
+    codeLink: '',
+    writeupLink: '',
+    gifSrc: '',
+    isCurrentlyWorking: true,
   }
 ];
 
