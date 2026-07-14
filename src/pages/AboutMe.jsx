@@ -15,12 +15,12 @@ function AboutMe() {
       </div>
       <div className="about-content">
         <p>
-          Malo e lelei! (Tongan for "Hello") Hi! I’m Jimmy. I’m a Pasifika Technologist currently living in the Bay Area, 
-          previously at Microsoft, Citadel, and Tesla. I went to Stanford where I studied Computer Science and Ethics. 
-          I’m at a point in life where I want to converge towards public interest in my 
-          line of work. I want to use my skills to positively impact the everyday person, not abstract stakeholders or 
-          billion dollar corporations. While I’m a software engineer by experience, I’m open to my career taking a 
-          different direction (or two) down the road.
+          Mālō e lelei! (Tongan for "Hello") Hi! I'm Jimmy. I'm a Pasifika Technologist currently living in the Bay Area, 
+          previously at Microsoft, Citadel, and Tesla doing Backend, InfoSec, and Full-Stack Eng respectively. 
+          I went to Stanford where I studied Computer Science and Ethics.
+          I'm at a point in life where I've realized I care more about what technology does for people than the heads-down 
+          building itself. So I'm steering toward roles that put me in front of people while still using my technical chops. 
+          I want my work to make a tangible difference for everyday folks, and I'm especially drawn to the public interest space.
         </p>
         <p>
           I grew up a military brat, moving every 3 years or so all over the United States (with a stint in Japan). 
@@ -28,10 +28,8 @@ function AboutMe() {
           I’m deeply curious in the stories of others – we’re all walking universes with depth that goes as far as we dig.
         </p>
         <p>
-          In my work I'm interested in pre/post-analysis data lifecycle (extraction, modeling, normalization, delivery, 
-          privacy, security, storage), building with the user and their feedback at the forefront, and automating 
-          repeatable workflows. Outside of work, I’m interested in mentoring youth (bonus points if it is outdoors), 
-          exploring spiritual communities, and chances to work with my hands.
+          Outside of work, I’m interested in mentoring youth (bonus points if it is outdoors), 
+          exploring spiritual communities, building app ideas with Claude, and chances to work with my hands.
         </p>
         <p>
           I believe in kindness, minimizing screentime, and breakfast for dinner. I don’t believe in forever wars, 
