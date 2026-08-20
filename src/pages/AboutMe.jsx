@@ -18,9 +18,6 @@ function AboutMe() {
           Mālō e lelei! (Tongan for "Hello") Hi! I'm Jimmy. I'm a Pasifika Technologist currently living in the Bay Area, 
           previously at Microsoft, Citadel, and Tesla doing Backend, InfoSec, and Full-Stack Eng respectively. 
           I went to Stanford where I studied Computer Science and Ethics.
-          I'm at a point in life where I've realized I care more about what technology does for people than the heads-down 
-          building itself. So I'm steering toward roles that put me in front of people while still using my technical chops. 
-          I want my work to make a tangible difference for everyday folks, and I'm especially drawn to the public interest space.
         </p>
         <p>
           I grew up a military brat, moving every 3 years or so all over the United States (with a stint in Japan). 

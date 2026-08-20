@@ -4,7 +4,7 @@ import './Projects.css';
 const SAMPLE_PROJECTS = [
   {
     name: 'Accountability Bot',
-    description: 'A Telegram Bot linked to Claude that keeps you accountable on your tasks for the day',
+    description: 'A Telegram Bot linked to Claude that keeps you accountable on your tasks for the day. Try it out on Telegram @StayAccountable7Bot with password "nice2meetu"',
     codeLink: 'https://github.com/jaylocks7/accountability-bot',
     writeupLink: 'https://docs.google.com/document/d/17B3Z3SAH23Xhk0OQro4uNtT3blvqxdqAQUJTl5Nz_HM/edit?usp=sharing',
     gifSrc: '',
@@ -33,14 +33,6 @@ const SAMPLE_PROJECTS = [
     writeupLink: 'https://docs.google.com/document/d/1rgnBZXy9Hj0FO_9EhE4NvBzop8guy4AZS_IRNCBvM60/edit?usp=sharing',
     gifSrc: '',
     isCurrentlyWorking: false,
-  },
-  {
-    name: 'Criminal Justice Data Analysis',
-    description: '',
-    codeLink: '',
-    writeupLink: '',
-    gifSrc: '',
-    isCurrentlyWorking: true,
   }
 ];
 
